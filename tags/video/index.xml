@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Video on 瑾</title>
+        <link>https://yinghuoz.github.io/jin.github.io/tags/video/</link>
+        <description>Recent content in Video on 瑾</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>瑾弦</copyright>
+        <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yinghuoz.github.io/jin.github.io/tags/video/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>视频测试</title>
+        <link>https://yinghuoz.github.io/jin.github.io/p/%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yinghuoz.github.io/jin.github.io/p/%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/</guid>
+        <description>&lt;img src="https://yinghuoz.github.io/jin.github.io/p/%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/1.jpg" alt="Featured image of post 视频测试" /&gt;&lt;section class=&#34;hugo-video-section&#34;&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+        &lt;iframe id=&#34;featured-video&#34; src=&#34;https://v.qq.com/txp/iframe/player.html?vid=t0937smmsj5&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+&lt;style&gt;
+.hugo-video-section {
+    max-width: 900px;
+    margin: 2rem auto;
+    font-family: inherit;
+}
+
+.video-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    background: #000;
+    transition: all 0.3s ease;
+}
+
+.video-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.video-container iframe {
+    border-radius: 12px;
+    width: 100%;
+    display: block;
+    background: #000;
+}
+&lt;/style&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    function adjustVideoHeight() {
+        const video = document.getElementById(&#39;featured-video&#39;);
+        if (video) {
+            video.style.height = (video.scrollWidth * 0.65) + &#39;px&#39;;
+        }
+    }
+    
+    window.addEventListener(&#39;load&#39;, adjustVideoHeight);
+    window.addEventListener(&#39;resize&#39;, adjustVideoHeight);
+    adjustVideoHeight();
+});
+&lt;/script&gt;
+</description>
+        </item>
+        <item>
+        <title>我会等</title>
+        <link>https://yinghuoz.github.io/jin.github.io/p/%E6%88%91%E4%BC%9A%E7%AD%89/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yinghuoz.github.io/jin.github.io/p/%E6%88%91%E4%BC%9A%E7%AD%89/</guid>
+        <description>&lt;img src="https://yinghuoz.github.io/jin.github.io/p/%E6%88%91%E4%BC%9A%E7%AD%89/1.jpg" alt="Featured image of post 我会等" /&gt;&lt;section class=&#34;hugo-video-section&#34;&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+        &lt;iframe id=&#34;featured-video&#34; src=&#34;https://www.bilibili.com/video/BV19M4y127ac/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ebd0141e6e94ac5a7fd19d0785494099&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+&lt;style&gt;
+.hugo-video-section {
+    max-width: 900px;
+    margin: 2rem auto;
+    font-family: inherit;
+}
+
+.video-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    background: #000;
+    transition: all 0.3s ease;
+}
+
+.video-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.video-container iframe {
+    border-radius: 12px;
+    width: 100%;
+    display: block;
+    background: #000;
+}
+&lt;/style&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    function adjustVideoHeight() {
+        const video = document.getElementById(&#39;featured-video&#39;);
+        if (video) {
+            video.style.height = (video.scrollWidth * 0.65) + &#39;px&#39;;
+        }
+    }
+    
+    window.addEventListener(&#39;load&#39;, adjustVideoHeight);
+    window.addEventListener(&#39;resize&#39;, adjustVideoHeight);
+    adjustVideoHeight();
+});
+&lt;/script&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

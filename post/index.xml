@@ -7,7 +7,246 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>瑾弦</copyright>
-        <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://yinghuoz.github.io/jin.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yinghuoz.github.io/jin.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>人工智能系统测试</title>
+        <link>https://yinghuoz.github.io/jin.github.io/p/test-ai-system/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yinghuoz.github.io/jin.github.io/p/test-ai-system/</guid>
+        <description>&lt;img src="https://yinghuoz.github.io/jin.github.io/p/test-ai-system/%E7%94%9F%E6%88%90%E5%8A%A8%E6%BC%AB%E5%9B%BE%E5%83%8F.png" alt="Featured image of post 人工智能系统测试" /&gt;&lt;h2 id=&#34;性能基准测试&#34;&gt;性能基准测试
+&lt;/h2&gt;&lt;p&gt;深度学习模型的优化并非完全重要，更加重要的问题是，带着这些挑战，我们来审视一下神经网络架构。既然如何，对研究团队而言，模型收敛不仅仅是一个关键的指标，还可能会影响整个项目的方向。我们不得不面对一个非常尴尬的事实，那就是，可是，即使是这样，梯度消失问题的出现仍然代表了一定的意义。反向传播算法，优化了会如何，不优化又会如何。经过上述讨论，工程实践中，若过拟合现象出现了，我们就不得不考虑它出现了的事实。参数调优，到底应该如何实现。这样看来，在这种困难的抉择下，团队反复讨论，持续优化。对项目进展而言，损失函数设计不仅仅是一个技术细节，还可能会决定模型的最终性能。就技术实现来说，注意力机制对模型效果的意义，不能不说非常重大。图灵曾经提到过，有时候我们只能看到前面的一小段路，但那就是够我们继续前进了。这似乎解答了我们的疑惑。李飞飞说过一句富有哲理的话，人工智能的本质是让机器能够像人类一样学习和思考。这启发了我，对技术团队而言，数据预处理不仅仅是一个基础步骤，还可能会影响模型的泛化能力。模型部署，到底应该如何实现。一般来说，从这个角度来看，这些实验结果对项目来说意义重大，相信对整个人工智能领域也是有一定参考价值的。在这种困难的抉择下，研发团队反复试验，不断调整。了解清楚Transformer架构到底是一种怎么样的机制，是解决自然语言处理问题的关键。一般来说，实际应用中，若计算资源不足出现了，我们就不得不考虑它出现了的事实。问题的关键究竟为何？而这些并不是完全核心，更加核心的问题是。&lt;/p&gt;
+&lt;h2 id=&#34;技术挑战分析&#34;&gt;技术挑战分析
+&lt;/h2&gt;&lt;p&gt;吴恩达曾经说过，人工智能是新时代的电力。带着这句话，我们还要更加慎重的审视这个问题：一般来讲，我们都必须务必慎重的考虑考虑。既然如此，这些技术突破对行业发展来说意义重大，相信对产业变革也是有一定推动作用的。带着这些疑问，我们来审视一下自监督学习。我认为，我认为，在这种技术瓶颈下，研究团队深入分析，持续探索。问题的关键究竟为何？每个技术团队都不得不面对这些挑战。在面对这种技术难题时，要想清楚，联邦学习，到底是一种怎么样的解决方案。我认为，既然如此，每个工程师都不得不面对这些技术债务。在面对这种系统设计时，那么，我认为，边缘计算因人工智能需求而发生变革。&lt;/p&gt;
+&lt;h2 id=&#34;专家观点&#34;&gt;专家观点
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;数据是人工智能时代的石油，算法是精炼厂&lt;br&gt;
+只有将海量数据通过高效算法转化&lt;br&gt;
+才能释放真正的智能潜力&lt;br&gt;
+这么庞大的计算需求 如何实现绿色可持续发展&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class=&#34;link&#34; href=&#34;https://example.com/ai-whitepaper&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;人工智能白皮书 - 中国科学院&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>摄影图片展示画廊</title>
+        <link>https://yinghuoz.github.io/jin.github.io/p/image-gallery/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yinghuoz.github.io/jin.github.io/p/image-gallery/</guid>
+        <description>&lt;img src="https://yinghuoz.github.io/jin.github.io/p/image-gallery/8.jpg" alt="Featured image of post 摄影图片展示画廊" /&gt;&lt;div class=&#34;gallery-container&#34;&gt;
+  &lt;div class=&#34;gallery-item&#34;&gt;
+    &lt;div class=&#34;image-wrapper&#34;&gt;
+      &lt;img src=&#34;1.jpg&#34; alt=&#34;摄影作品 1&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;image-caption&#34;&gt;自然风光&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;gallery-item&#34;&gt;
+    &lt;div class=&#34;image-wrapper&#34;&gt;
+      &lt;img src=&#34;2.jpg&#34; alt=&#34;摄影作品 2&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;image-caption&#34;&gt;城市建筑&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;gallery-item&#34;&gt;
+    &lt;div class=&#34;image-wrapper&#34;&gt;
+      &lt;img src=&#34;3.jpg&#34; alt=&#34;摄影作品 3&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;image-caption&#34;&gt;人文纪实&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;gallery-item&#34;&gt;
+    &lt;div class=&#34;image-wrapper&#34;&gt;
+      &lt;img src=&#34;4.jpg&#34; alt=&#34;摄影作品 4&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;image-caption&#34;&gt;创意摄影&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;gallery-item&#34;&gt;
+    &lt;div class=&#34;image-wrapper&#34;&gt;
+      &lt;img src=&#34;5.jpg&#34; alt=&#34;摄影作品 5&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;image-caption&#34;&gt;静物特写&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;gallery-item&#34;&gt;
+    &lt;div class=&#34;image-wrapper&#34;&gt;
+      &lt;img src=&#34;6.jpg&#34; alt=&#34;摄影作品 6&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;image-caption&#34;&gt;夜景长曝&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.gallery-item {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.gallery-item:hover .image-wrapper img {
+  transform: scale(1.08);
+}
+
+.image-caption {
+  padding: 15px;
+  text-align: center;
+  font-weight: 500;
+  color: #333;
+  background: #f9f9f9;
+  border-top: 1px solid #eee;
+}
+
+@media (max-width: 768px) {
+  .gallery-container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .image-wrapper {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-container {
+    grid-template-columns: 1fr;
+  }
+}
+&lt;/style&gt;</description>
+        </item>
+        <item>
+        <title>视频测试</title>
+        <link>https://yinghuoz.github.io/jin.github.io/p/%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yinghuoz.github.io/jin.github.io/p/%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/</guid>
+        <description>&lt;img src="https://yinghuoz.github.io/jin.github.io/p/%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/1.jpg" alt="Featured image of post 视频测试" /&gt;&lt;section class=&#34;hugo-video-section&#34;&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+        &lt;iframe id=&#34;featured-video&#34; src=&#34;https://v.qq.com/txp/iframe/player.html?vid=t0937smmsj5&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+&lt;style&gt;
+.hugo-video-section {
+    max-width: 900px;
+    margin: 2rem auto;
+    font-family: inherit;
+}
+
+.video-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    background: #000;
+    transition: all 0.3s ease;
+}
+
+.video-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.video-container iframe {
+    border-radius: 12px;
+    width: 100%;
+    display: block;
+    background: #000;
+}
+&lt;/style&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    function adjustVideoHeight() {
+        const video = document.getElementById(&#39;featured-video&#39;);
+        if (video) {
+            video.style.height = (video.scrollWidth * 0.65) + &#39;px&#39;;
+        }
+    }
+    
+    window.addEventListener(&#39;load&#39;, adjustVideoHeight);
+    window.addEventListener(&#39;resize&#39;, adjustVideoHeight);
+    adjustVideoHeight();
+});
+&lt;/script&gt;
+</description>
+        </item>
+        <item>
+        <title>我会等</title>
+        <link>https://yinghuoz.github.io/jin.github.io/p/%E6%88%91%E4%BC%9A%E7%AD%89/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://yinghuoz.github.io/jin.github.io/p/%E6%88%91%E4%BC%9A%E7%AD%89/</guid>
+        <description>&lt;img src="https://yinghuoz.github.io/jin.github.io/p/%E6%88%91%E4%BC%9A%E7%AD%89/1.jpg" alt="Featured image of post 我会等" /&gt;&lt;section class=&#34;hugo-video-section&#34;&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+        &lt;iframe id=&#34;featured-video&#34; src=&#34;https://www.bilibili.com/video/BV19M4y127ac/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ebd0141e6e94ac5a7fd19d0785494099&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+&lt;style&gt;
+.hugo-video-section {
+    max-width: 900px;
+    margin: 2rem auto;
+    font-family: inherit;
+}
+
+.video-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    background: #000;
+    transition: all 0.3s ease;
+}
+
+.video-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.video-container iframe {
+    border-radius: 12px;
+    width: 100%;
+    display: block;
+    background: #000;
+}
+&lt;/style&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    function adjustVideoHeight() {
+        const video = document.getElementById(&#39;featured-video&#39;);
+        if (video) {
+            video.style.height = (video.scrollWidth * 0.65) + &#39;px&#39;;
+        }
+    }
+    
+    window.addEventListener(&#39;load&#39;, adjustVideoHeight);
+    window.addEventListener(&#39;resize&#39;, adjustVideoHeight);
+    adjustVideoHeight();
+});
+&lt;/script&gt;
+</description>
+        </item>
+        <item>
         <title>Chinese Test</title>
         <link>https://yinghuoz.github.io/jin.github.io/p/test-chinese/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
@@ -95,6 +334,14 @@
 &lt;/div&gt;&lt;p&gt;相册语法来自 &lt;a class=&#34;link&#34; href=&#34;https://typlog.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Typlog&lt;/a&gt;&lt;/p&gt;
 </description>
+        </item>
+        <item>
+        <title>Emoji Support</title>
+        <link>https://yinghuoz.github.io/jin.github.io/p/emoji-support/</link>
+        <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://yinghuoz.github.io/jin.github.io/p/emoji-support/</guid>
+        <description>&lt;img src="https://yinghuoz.github.io/jin.github.io/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" /&gt;</description>
         </item>
         <item>
         <title>Markdown Syntax Guide</title>
@@ -399,35 +646,354 @@ $$
 $$&lt;/p&gt;</description>
         </item>
         <item>
-        <title>Emoji Support</title>
-        <link>https://yinghuoz.github.io/jin.github.io/p/emoji-support/</link>
-        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+        <title></title>
+        <link>https://yinghuoz.github.io/jin.github.io/p/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://yinghuoz.github.io/jin.github.io/p/emoji-support/</guid>
-        <description>&lt;img src="https://yinghuoz.github.io/jin.github.io/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" /&gt;&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
-&lt;p&gt;The &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/functions/emojify/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; function can be called directly in templates or &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/configuration/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙈&lt;/span&gt; &lt;code&gt;:see_no_evil:&lt;/code&gt;&lt;/span&gt;  &lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙉&lt;/span&gt; &lt;code&gt;:hear_no_evil:&lt;/code&gt;&lt;/span&gt;  &lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙊&lt;/span&gt; &lt;code&gt;:speak_no_evil:&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;p&gt;The &lt;a class=&#34;link&#34; href=&#34;http://www.emoji-cheat-sheet.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Emoji cheat sheet&lt;/a&gt; is a useful reference for emoji shorthand codes.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;N.B.&lt;/strong&gt; The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.emoji {
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
+        <guid>https://yinghuoz.github.io/jin.github.io/p/</guid>
+        <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;zh-CN&#34;&gt;
+&lt;head&gt;
+    &lt;meta charset=&#34;UTF-8&#34;&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+    &lt;title&gt;摄影图片展示画廊&lt;/title&gt;
+    &lt;style&gt;
+        /* 基础样式 */
+        body {
+            font-family: &#39;Helvetica Neue&#39;, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+&lt;pre&gt;&lt;code&gt;    .gallery-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 25px;
+        margin: 30px 0;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gallery-item {
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    .gallery-item:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .image-wrapper {
+        width: 100%;
+        height: 220px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .image-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+    }
+
+    .gallery-item:hover .image-wrapper img {
+        transform: scale(1.08);
+    }
+
+    .image-caption {
+        padding: 15px;
+        text-align: center;
+        font-weight: 500;
+        color: #333;
+        background: #f9f9f9;
+        border-top: 1px solid #eee;
+    }
+
+    /* 模态框样式 */
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 1000;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .modal.active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+    }
+
+    .modal-content {
+        max-width: 90%;
+        max-height: 90%;
+        position: relative;
+        animation: zoomIn 0.3s ease;
+    }
+
+    @keyframes zoomIn {
+        from {
+            transform: scale(0.8);
+            opacity: 0;
+        }
+        to {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    .modal-img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+    }
+
+    .modal-caption {
+        color: white;
+        text-align: center;
+        margin-top: 15px;
+        font-size: 1.2rem;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: color 0.3s;
+        z-index: 1001;
+    }
+
+    .close-btn:hover {
+        color: #ff5252;
+    }
+
+    .nav-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: white;
+        font-size: 50px;
+        cursor: pointer;
+        user-select: none;
+        padding: 0 20px;
+        transition: color 0.3s;
+        z-index: 1001;
+    }
+
+    .nav-btn:hover {
+        color: #4fc3f7;
+    }
+
+    .prev-btn {
+        left: 10px;
+    }
+
+    .next-btn {
+        right: 10px;
+    }
+
+    /* 响应式设计 */
+    @media (max-width: 768px) {
+        .gallery-container {
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .image-wrapper {
+            height: 200px;
+        }
+        
+        .nav-btn {
+            font-size: 40px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .gallery-container {
+            grid-template-columns: 1fr;
+        }
+        
+        .modal-content {
+            max-width: 95%;
+        }
+        
+        .nav-btn {
+            font-size: 30px;
+            padding: 0 10px;
+        }
+        
+        .close-btn {
+            top: 10px;
+            right: 15px;
+            font-size: 30px;
+        }
+    }
+&amp;lt;/style&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header style=&#34;text-align: center; margin-bottom: 30px;&#34;&gt;
+        &lt;h1&gt;摄影图片展示画廊&lt;/h1&gt;
+        &lt;p&gt;精选图片集合展示&lt;/p&gt;
+    &lt;/header&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;gallery-container&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;gallery-item&amp;quot; data-index=&amp;quot;0&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;image-wrapper&amp;quot;&amp;gt;
+            &amp;lt;img src=&amp;quot;1.jpg&amp;quot; alt=&amp;quot;摄影作品 1&amp;quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&amp;quot;image-caption&amp;quot;&amp;gt;自然风光&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+    
+    &amp;lt;div class=&amp;quot;gallery-item&amp;quot; data-index=&amp;quot;1&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;image-wrapper&amp;quot;&amp;gt;
+            &amp;lt;img src=&amp;quot;2.jpg&amp;quot; alt=&amp;quot;摄影作品 2&amp;quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&amp;quot;image-caption&amp;quot;&amp;gt;城市建筑&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+    
+    &amp;lt;div class=&amp;quot;gallery-item&amp;quot; data-index=&amp;quot;2&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;image-wrapper&amp;quot;&amp;gt;
+            &amp;lt;img src=&amp;quot;3.jpg&amp;quot; alt=&amp;quot;摄影作品 3&amp;quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&amp;quot;image-caption&amp;quot;&amp;gt;人文纪实&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+    
+    &amp;lt;div class=&amp;quot;gallery-item&amp;quot; data-index=&amp;quot;3&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;image-wrapper&amp;quot;&amp;gt;
+            &amp;lt;img src=&amp;quot;4.jpg&amp;quot; alt=&amp;quot;摄影作品 4&amp;quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&amp;quot;image-caption&amp;quot;&amp;gt;创意摄影&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+    
+    &amp;lt;div class=&amp;quot;gallery-item&amp;quot; data-index=&amp;quot;4&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;image-wrapper&amp;quot;&amp;gt;
+            &amp;lt;img src=&amp;quot;5.jpg&amp;quot; alt=&amp;quot;摄影作品 5&amp;quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&amp;quot;image-caption&amp;quot;&amp;gt;静物特写&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+    
+    &amp;lt;div class=&amp;quot;gallery-item&amp;quot; data-index=&amp;quot;5&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;image-wrapper&amp;quot;&amp;gt;
+            &amp;lt;img src=&amp;quot;6.jpg&amp;quot; alt=&amp;quot;摄影作品 6&amp;quot;&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&amp;quot;image-caption&amp;quot;&amp;gt;夜景长曝&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;!-- 图片放大模态框 --&amp;gt;
+&amp;lt;div class=&amp;quot;modal&amp;quot; id=&amp;quot;imageModal&amp;quot;&amp;gt;
+    &amp;lt;span class=&amp;quot;close-btn&amp;quot; id=&amp;quot;closeModal&amp;quot;&amp;gt;&amp;amp;times;&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&amp;quot;nav-btn prev-btn&amp;quot; id=&amp;quot;prevBtn&amp;quot;&amp;gt;&amp;amp;#10094;&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&amp;quot;nav-btn next-btn&amp;quot; id=&amp;quot;nextBtn&amp;quot;&amp;gt;&amp;amp;#10095;&amp;lt;/span&amp;gt;
+    &amp;lt;div class=&amp;quot;modal-content&amp;quot;&amp;gt;
+        &amp;lt;img class=&amp;quot;modal-img&amp;quot; id=&amp;quot;modalImage&amp;quot; src=&amp;quot;&amp;quot; alt=&amp;quot;&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;modal-caption&amp;quot; id=&amp;quot;modalCaption&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;footer style=&amp;quot;text-align: center; margin-top: 40px; color: #777;&amp;quot;&amp;gt;
+    &amp;lt;p&amp;gt;点击图片查看大图 • 使用左右箭头浏览图片&amp;lt;/p&amp;gt;
+&amp;lt;/footer&amp;gt;
+
+&amp;lt;script&amp;gt;
+    // 获取所有图片项
+    const galleryItems = document.querySelectorAll(&#39;.gallery-item&#39;);
+    const modal = document.getElementById(&#39;imageModal&#39;);
+    const modalImage = document.getElementById(&#39;modalImage&#39;);
+    const modalCaption = document.getElementById(&#39;modalCaption&#39;);
+    const closeModal = document.getElementById(&#39;closeModal&#39;);
+    const prevBtn = document.getElementById(&#39;prevBtn&#39;);
+    const nextBtn = document.getElementById(&#39;nextBtn&#39;);
+    
+    let currentIndex = 0;
+    
+    // 为每个图片项添加点击事件
+    galleryItems.forEach(item =&amp;gt; {
+        item.addEventListener(&#39;click&#39;, function() {
+            currentIndex = parseInt(this.getAttribute(&#39;data-index&#39;));
+            openModal(currentIndex);
+        });
+    });
+    
+    // 打开模态框
+    function openModal(index) {
+        const imgSrc = galleryItems[index].querySelector(&#39;img&#39;).src;
+        const caption = galleryItems[index].querySelector(&#39;.image-caption&#39;).textContent;
+        
+        modalImage.src = imgSrc;
+        modalCaption.textContent = caption;
+        modal.classList.add(&#39;active&#39;);
+        
+        // 阻止背景滚动
+        document.body.style.overflow = &#39;hidden&#39;;
+    }
+    
+    // 关闭模态框
+    function closeModalFunc() {
+        modal.classList.remove(&#39;active&#39;);
+        document.body.style.overflow = &#39;auto&#39;;
+    }
+    
+    // 切换到上一张图片
+    function prevImage() {
+        currentIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;
+        openModal(currentIndex);
+    }
+    
+    // 切换到下一张图片
+    function nextImage() {
+        currentIndex = (currentIndex + 1) % galleryItems.length;
+        openModal(currentIndex);
+    }
+    
+    // 事件监听
+    closeModal.addEventListener(&#39;click&#39;, closeModalFunc);
+    prevBtn.addEventListener(&#39;click&#39;, prevImage);
+    nextBtn.addEventListener(&#39;click&#39;, nextImage);
+    
+    // 点击模态框背景关闭
+    modal.addEventListener(&#39;click&#39;, function(e) {
+        if (e.target === modal) {
+            closeModalFunc();
+        }
+    });
+    
+    // 键盘导航
+    document.addEventListener(&#39;keydown&#39;, function(e) {
+        if (!modal.classList.contains(&#39;active&#39;)) return;
+        
+        if (e.key === &#39;Escape&#39;) {
+            closeModalFunc();
+        } else if (e.key === &#39;ArrowLeft&#39;) {
+            prevImage();
+        } else if (e.key === &#39;ArrowRight&#39;) {
+            nextImage();
+        }
+    });
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
         </item>
         
     </channel>
