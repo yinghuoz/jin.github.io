@@ -13,7 +13,7 @@
 <meta property='og:type' content='website'><meta property='og:updated_time' content=' 2020-09-09T00:00:00&#43;00:00 '/>
 <meta name="twitter:title" content="Category: Test With Whitespaces - 瑾">
 <meta name="twitter:description" content="演示说明"><link rel="alternate" type="application/rss&#43;xml" href="https://yinghuoz.github.io/jin.github.io/categories/test-with-whitespaces/index.xml">
-    <link rel="shortcut icon" href="/jin.github.io/static/y.png" />
+    <link rel="shortcut icon" href="/jin.github.io/y.png" />
 
   
 
@@ -468,6 +468,80 @@
         document.head.appendChild(customFont);
     }());
 </script>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>网易云音乐播放器</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+    <style>
+        .music-player {
+            margin: 20px auto;
+            max-width: 800px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="music-player">
+        <meting-js
+            server="netease"
+            type="playlist"
+            id="19723756"
+            fixed="true"
+            theme="#27ae60"
+            loop="all"
+            order="random"
+            volume="0.8">
+        </meting-js>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+    
+    <script>
+    window.onload = function() {
+        const ap = document.querySelector('meting-js').aplayer;
+        
+        
+        ap.on('canplay', function() {
+            const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            const analyser = audioCtx.createAnalyser();
+            const source = audioCtx.createMediaElementSource(ap.audio);
+            
+            source.connect(analyser);
+            analyser.connect(audioCtx.destination);
+            
+            
+            function visualize() {
+                requestAnimationFrame(visualize);
+                const dataArray = new Uint8Array(analyser.frequencyBinCount);
+                analyser.getByteFrequencyData(dataArray);
+                
+            }
+            visualize();
+        });
+    };
+    </script>
+</body>
+</html>
+
+
+<meting-js lrc-type="3"></meting-js>
+const audioCtx = new AudioContext();
+const source = audioCtx.createMediaElementSource(ap.audio);
+const equalizer = audioCtx.createBiquadFilter();
+
+// 配置均衡器参数
+equalizer.type = 'peaking';
+equalizer.frequency.value = 1000;
+equalizer.gain.value = 5;
+
+source.connect(equalizer);
+equalizer.connect(audioCtx.destination);
+
+
+
 
     </body>
 </html>
