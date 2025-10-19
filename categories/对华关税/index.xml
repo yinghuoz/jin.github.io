@@ -19,33 +19,139 @@
 &lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://news.qq.com/rain/a/20250514A05OX700&#34;&gt;腾讯网 - 中美关税战缓和：从高强度对抗到“贸易伙伴”的转折&lt;/a&gt;&lt;/em&gt;
 &lt;em&gt;&lt;a href=&#34;https://news.cctv.com/2025/05/15/ARTImSnJsOYTgFPgOhClbayc250515.shtml&#34;&gt;央视网 - 一文看懂中美经贸高层会谈联合声明&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;section class=&#34;hugo-video-section&#34;&gt;
+    &lt;div class=&#34;video-container&#34;&gt;
+        &lt;iframe id=&#34;featured-video&#34; src=&#34;https://news.qq.com/rain/a/20250514A05OX700&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+&lt;style&gt;
+.hugo-video-section {
+    max-width: 900px;
+    margin: 2rem auto;
+    font-family: inherit;
+}
+
+.video-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    background: #000;
+    transition: all 0.3s ease;
+}
+
+.video-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.video-container iframe {
+    border-radius: 12px;
+    width: 100%;
+    display: block;
+    background: #000;
+}
+&lt;/style&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    function adjustVideoHeight() {
+        const video = document.getElementById(&#39;featured-video&#39;);
+        if (video) {
+            video.style.height = (video.scrollWidth * 0.65) + &#39;px&#39;;
+        }
+    }
+    
+    window.addEventListener(&#39;load&#39;, adjustVideoHeight);
+    window.addEventListener(&#39;resize&#39;, adjustVideoHeight);
+    adjustVideoHeight();
+});
+&lt;/script&gt;
 &lt;h2 id=&#34;相关视频&#34;&gt;相关视频&lt;/h2&gt;
 &lt;p&gt;2025年5月12日，中美双方在日内瓦签署的经贸协议，结束了长达七年的关税拉锯战。&lt;/p&gt;
-&lt;iframe
-    src=&#34;//player.bilibili.com/player.html?bvid=BV1wPE7zJEhj&amp;page=1&#34;
-    scrolling=&#34;no&#34;
-    height=&#34;768px&#34;
-    width=&#34;1024px&#34;
-    frameborder=&#34;no&#34;
-    framespacing=&#34;0&#34;
-    allowfullscreen=&#34;true&#34;
-&gt;
-&lt;/iframe&gt;
+&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+
+  &lt;head&gt;
+    
+    &lt;style type=&#34;text/css&#34;&gt;
+      .aspect-ratio {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 75%;
+      }
+
+      .aspect-ratio iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;div class=&#34;aspect-ratio&#34;&gt;
+      &lt;iframe
+              src=&#34;https://player.bilibili.com/player.html?bvid=BV1wPE7zJEhj&amp;page=1&amp;high_quality=1&amp;danmaku=0&#34;
+              scrolling=&#34;no&#34; 
+              border=&#34;0&#34; 
+              frameborder=&#34;no&#34; 
+              framespacing=&#34;0&#34; 
+              allowfullscreen=&#34;true&#34;
+              &gt;
+      &lt;/iframe&gt;
+      
+    &lt;/div&gt;
+  &lt;/body&gt;
+
+&lt;/html&gt;
 
 &lt;p&gt;8月12日，中美双方发布《中美斯德哥尔摩经贸会谈联合声明》。美方承诺继续调整对中国商品（包括香港特别行政区和澳门特别行政区商品）加征关税的措施，自8月12日起继续暂停实施24%的对等关税90天。中方自8月12日起继续暂停实施24%对美加征关税以及有关非关税反制措施90天。&lt;/p&gt;
-&lt;iframe
-    src=&#34;//player.bilibili.com/player.html?bvid=BV1pPtXzBEbt&amp;page=1&#34;
-    scrolling=&#34;no&#34;
-    height=&#34;768px&#34;
-    width=&#34;1024px&#34;
-    frameborder=&#34;no&#34;
-    framespacing=&#34;0&#34;
-    allowfullscreen=&#34;true&#34;
-&gt;
-&lt;/iframe&gt;
+&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
 
+  &lt;head&gt;
+    
+    &lt;style type=&#34;text/css&#34;&gt;
+      .aspect-ratio {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 75%;
+      }
+
+      .aspect-ratio iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;div class=&#34;aspect-ratio&#34;&gt;
+      &lt;iframe
+              src=&#34;https://player.bilibili.com/player.html?bvid=BV1pPtXzBEbt&amp;page=1&amp;high_quality=1&amp;danmaku=0&#34;
+              scrolling=&#34;no&#34; 
+              border=&#34;0&#34; 
+              frameborder=&#34;no&#34; 
+              framespacing=&#34;0&#34; 
+              allowfullscreen=&#34;true&#34;
+              &gt;
+      &lt;/iframe&gt;
+      
+    &lt;/div&gt;
+  &lt;/body&gt;
+
+&lt;/html&gt;
+
+&lt;h2 id=&#34;黄金实盘截图&#34;&gt;黄金实盘截图&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;1.jpg&#34; alt=&#34;5月12日声明发布后黄金分时走势&#34;&gt;  &lt;img src=&#34;2.jpg&#34; alt=&#34;两日后&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;5.jpg&#34; alt=&#34;整体下降趋势&#34;&gt;  &lt;img src=&#34;4.jpg&#34; alt=&#34;现在情况&#34;&gt;  &lt;img src=&#34;3.jpg&#34; alt=&#34;卖出&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;分析&#34;&gt;分析&lt;/h2&gt;
 &lt;p&gt;就在几天前，特朗普提出将在11月1日对中国加征100%的关税。结果此时还没尘埃落定，美国再次放出重磅炸弹，美财长宣布将对中国征收500%关税，而特朗普也在不久后的采访中定调中美现状。&lt;/p&gt;
 &lt;p&gt;美财长剑指中国，关税战再度升级&lt;/p&gt;
 &lt;p&gt;10月15日，贝森特在一场新闻发布会中提出，要对中国征收500%的关税，并且这一议题收到了国会参议院中85位议员的支持。这样看来，这个议题的通过似乎已经是板上钉钉的事了。&lt;/p&gt;
@@ -54,6 +160,34 @@
 &lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://www.chinanews.com.cn/gn/2025/10-13/10497483.shtml&#34;&gt;中国新闻网 - 美方威胁将会从11月1日起对华商品加征100%关税 外交部回应&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;美东时间10月10日，美国官方正式宣布关税升级新政：自 2025年11月1日起，对所有中国输美商品加征额外100%关税，覆盖消费电子、机械设备、纺织品、农产品等全品类，涉及2024年约5000亿美元的中美贸易规模。 这一政策并非孤立调整，而是叠加现有10%对等关税及20%专项关税后，总税率将突破 130%，创下 2018 年以来单次加征幅度新高。&lt;/p&gt;
+&lt;p&gt;9月3日，纽约黄金期货合约突破每盎司3616.9美元，站上3600美元关口，创下历史新高。是什么原因导致国际金价上涨？招联首席研究员、上海金融与发展实验室副主任董希淼分析，本轮金价上涨绝非偶然，美联储降息预期是背后的“强力推手”。
+美国7月核心通胀数据发布后，市场对美联储9月降息的预期明显上升，美联储主席鲍威尔近期释放出降息的信号，明确表示货币政策立场可能需要调整，美联储降息对普通投资者来说，意味着美元资产收益下降，美元指数也可能走弱，这就增强了黄金作为资产配置的吸引力。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://news.cnr.cn/sq/20250905/t20250905_527351664.shtml&#34;&gt;央广网 - 国际金价多次刷新历史高位，哪些原因导致本轮上涨？&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;2024年7月金砖扩容至11国，覆盖全球42%人口与38%GDP，内部贸易规模达3.2万亿美元，并明确提出“2027年前实现内部贸易本币结算超50%”的目标。
+这些能源出口大国和人口大国正在系统性地推进“去美元化”，重新引入黄金作为国际支付与储备的媒介。
+一旦美元从“全球货币”退化为“区域货币”，黄金将成为真正意义上的跨周期、跨国界共识资产。
+19世纪英镑霸权衰落用了30年，而美元主导地位的褪色，进程可能更快。&lt;/p&gt;
+&lt;p&gt;你可以不相信股市、债市甚至美元，但你不能不信黄金。&lt;/p&gt;
+&lt;p&gt;国家外汇管理局10月7日发布数据显示，截至2025年9月末，我国外汇储备规模为33387亿美元，较8月末上升165亿美元，升幅为0.5%。&lt;/p&gt;
+&lt;p&gt;国家外汇管理局同日发布的数据显示，9月末我国黄金储备为7406万盎司，环比增加4万盎司，为我国央行连续第11个月增持黄金。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://finance.sina.com.cn/jjxw/2025-10-07/doc-infsztus4724194.shtml&#34;&gt;新浪财经 - 央行出手，连续第11个月增持黄金&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;23年9月预测黄金未来的增长趋势，12月爆发购金潮，24年3月开始了第一个增长周期。&lt;/p&gt;
+&lt;p&gt;自2022年以来，全球央行年度净购金量连续突破1000吨。咨询公司Metals Focus预计，2025年央行购金量仍将保持在900吨的高位，远高于2016-2021年457吨的年均水平。这一趋势主要源于发展中国家对美元资产依赖的重新评估——2022年西方冻结俄罗斯近一半外汇储备后，多国加速推进外汇储备多元化。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://nai500.com/zh-hans/blog/2025/09/%e9%87%91%e4%bb%b7-%e5%88%9b%e6%96%b0%e9%ab%98-%e8%83%8c%e5%90%8e-%e8%bf%99%e4%ba%9b-%e5%9b%a0%e7%b4%a0-%e5%8a%9f%e4%b8%8d-%e5%8f%af%e6%b2%a1/&#34;&gt;北美投资机会和新闻 - 金价创历史新高背后，这些因素功不可没&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;俄罗斯和乌克兰战争开始于2022年2月24日
+2018-2019年：贸易战首轮交锋（特朗普第一任期）
+2024年：行业性关税升级
+2025年：全面关税战及缓和（特朗普第二任期）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2018.jpeg&#34; alt=&#34;2018年中国金价的历史记录&#34;&gt;  &lt;img src=&#34;2019.jpeg&#34; alt=&#34;2019年中国金价的历史记录&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2022.jpeg&#34; alt=&#34;2022年中国金价的历史记录&#34;&gt;  &lt;img src=&#34;2023.jpeg&#34; alt=&#34;2023年中国金价的历史记录&#34;&gt;
+&lt;img src=&#34;2024.jpeg&#34; alt=&#34;2024年中国金价的历史记录&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;202510.jpeg&#34; alt=&#34;2015年~2025年近十年中国金价历史记录&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;讨论&#34;&gt;讨论&lt;/h2&gt;
 &lt;p&gt;留下一个问题：黄金是否已经到达顶点，未来一个月是否还会继续增长？&lt;/p&gt;
 </description>

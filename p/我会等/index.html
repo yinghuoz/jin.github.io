@@ -316,16 +316,45 @@
     <section class="article-content">
     
     
-    <iframe
-    src="//player.bilibili.com/player.html?bvid=BV19M4y127ac&page=1"
-    scrolling="no"
-    height="768px"
-    width="1024px"
-    frameborder="no"
-    framespacing="0"
-    allowfullscreen="true"
->
-</iframe>
+    <!DOCTYPE HTML>
+<html>
+
+  <head>
+    
+    <style type="text/css">
+      .aspect-ratio {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 75%;
+      }
+
+      .aspect-ratio iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="aspect-ratio">
+      <iframe
+              src="https://player.bilibili.com/player.html?bvid=BV19M4y127ac&page=1&high_quality=1&danmaku=0"
+              scrolling="no" 
+              border="0" 
+              frameborder="no" 
+              framespacing="0" 
+              allowfullscreen="true"
+              >
+      </iframe>
+      
+    </div>
+  </body>
+
+</html>
 
 
 </section>
