@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Music on 瑾</title>
+        <link>http://localhost:1313/jin.github.io/categories/music/</link>
+        <description>Recent content in Music on 瑾</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>瑾弦</copyright>
+        <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/jin.github.io/categories/music/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>银河航天年会主题舞曲发布</title>
+        <link>http://localhost:1313/jin.github.io/p/%E9%93%B6%E6%B2%B3%E8%88%AA%E5%A4%A9%E5%B9%B4%E4%BC%9A%E4%B8%BB%E9%A2%98%E8%88%9E%E6%9B%B2%E5%8F%91%E5%B8%83/</link>
+        <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/jin.github.io/p/%E9%93%B6%E6%B2%B3%E8%88%AA%E5%A4%A9%E5%B9%B4%E4%BC%9A%E4%B8%BB%E9%A2%98%E8%88%9E%E6%9B%B2%E5%8F%91%E5%B8%83/</guid>
+        <description>&lt;img src="http://localhost:1313/jin.github.io/2.jpg" alt="Featured image of post 银河航天年会主题舞曲发布" /&gt;&lt;hr&gt;
+&lt;h2 id=&#34;date-2026-01-17&#34;&gt;title: &amp;ldquo;银河航天年会主题舞曲发布&amp;rdquo;
+date: 2026-01-17
+&lt;/h2&gt;&lt;p&gt;这是我们银河航天年会的主题舞曲，欢迎欣赏 👇&lt;/p&gt;
+&lt;div class=&#34;galaxy-player&#34;&gt;
+  &lt;h1&gt;FLY TO THE GALAXY&lt;/h1&gt;
+  &lt;h2&gt;飞向银河 · 银河航天年会主题舞曲&lt;/h2&gt;
+
+  &lt;audio id=&#34;galaxy-audio&#34; preload=&#34;metadata&#34;&gt;
+    &lt;source src=&#34;http://localhost:1313/jin.github.io/music/fly-to-the-galaxy.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+    你的浏览器不支持 audio
+  &lt;/audio&gt;
+
+  &lt;div class=&#34;controls&#34;&gt;
+    &lt;button id=&#34;galaxy-play&#34;&gt;▶&lt;/button&gt;
+    &lt;input type=&#34;range&#34; id=&#34;galaxy-progress&#34; value=&#34;0&#34;&gt;
+    &lt;span id=&#34;galaxy-time&#34;&gt;0:00&lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;lyrics&#34; id=&#34;galaxy-lyrics&#34;&gt;
+    &lt;p style=&#34;opacity:.5&#34;&gt;歌词加载中…&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.galaxy-player {
+  margin: 3rem auto;
+  padding: 2.5rem;
+  border-radius: 20px;
+  background: linear-gradient(160deg, #0b1026, #1a1f3c);
+  box-shadow: 0 0 40px rgba(100,150,255,.25);
+  color: #fff;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.8rem 0;
+}
+
+.controls button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #4ea1ff;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.controls input {
+  flex: 1;
+}
+
+.lyrics {
+  height: 280px;
+  overflow-y: auto;
+  line-height: 2;
+}
+
+.lyrics p {
+  opacity: .35;
+  transition: .3s;
+}
+
+.lyrics p.active {
+  opacity: 1;
+  color: #4ea1ff;
+  font-size: 1.15rem;
+}
+&lt;/style&gt;
+
+&lt;script&gt;
+(function () {
+  const audio = document.getElementById(&#34;galaxy-audio&#34;);
+  const playBtn = document.getElementById(&#34;galaxy-play&#34;);
+  const progress = document.getElementById(&#34;galaxy-progress&#34;);
+  const timeLabel = document.getElementById(&#34;galaxy-time&#34;);
+  const lyricsBox = document.getElementById(&#34;galaxy-lyrics&#34;);
+
+  let lyrics = [];
+  let ready = false;
+
+  
+  playBtn.onclick = () =&gt; {
+    if (!ready) return;
+    if (audio.paused) {
+      audio.play();
+      playBtn.textContent = &#34;⏸&#34;;
+    } else {
+      audio.pause();
+      playBtn.textContent = &#34;▶&#34;;
+    }
+  };
+
+  audio.addEventListener(&#34;loadedmetadata&#34;, () =&gt; {
+    ready = true;
+  });
+
+  audio.addEventListener(&#34;timeupdate&#34;, () =&gt; {
+    if (!audio.duration) return;
+
+    progress.value = (audio.currentTime / audio.duration) * 100;
+    timeLabel.textContent = format(audio.currentTime);
+
+    lyrics.forEach((l, i) =&gt; {
+      if (
+        audio.currentTime &gt;= l.time &amp;&amp;
+        (!lyrics[i + 1] || audio.currentTime &lt; lyrics[i + 1].time)
+      ) {
+        const ps = lyricsBox.querySelectorAll(&#34;p&#34;);
+        ps.forEach(p =&gt; p.classList.remove(&#34;active&#34;));
+        ps[i]?.classList.add(&#34;active&#34;);
+        ps[i]?.scrollIntoView({ block: &#34;center&#34;, behavior: &#34;smooth&#34; });
+      }
+    });
+  });
+
+  progress.oninput = () =&gt; {
+    if (!audio.duration) return;
+    audio.currentTime = (progress.value / 100) * audio.duration;
+  };
+
+  
+  const lyricPaths = [
+    &#34;/music/fly-to-the-galaxy.lrc&#34;,
+    &#34;/music/fly-to-the-galaxy.txt&#34;
+  ];
+
+  (async function loadLyrics() {
+    for (const path of lyricPaths) {
+      try {
+        const res = await fetch(path);
+        if (!res.ok) continue;
+
+        const text = await res.text();
+        parseLyrics(text);
+        return;
+      } catch (e) {
+        console.warn(&#34;歌词加载失败：&#34;, path);
+      }
+    }
+    lyricsBox.innerHTML = &#34;&lt;p style=&#39;opacity:.5&#39;&gt;未找到歌词文件&lt;/p&gt;&#34;;
+  })();
+
+  function parseLyrics(text) {
+    lyricsBox.innerHTML = &#34;&#34;;
+    lyrics = text.split(&#34;\n&#34;).map(line =&gt; {
+      const m = line.match(/\[(\d+):(\d+\.?\d*)\](.*)/);
+      if (!m) return null;
+      return {
+        time: parseInt(m[1]) * 60 + parseFloat(m[2]),
+        text: m[3].trim()
+      };
+    }).filter(Boolean);
+
+    lyrics.forEach(l =&gt; {
+      const p = document.createElement(&#34;p&#34;);
+      p.textContent = l.text;
+      lyricsBox.appendChild(p);
+    });
+  }
+
+  function format(s) {
+    const m = Math.floor(s / 60);
+    const sec = Math.floor(s % 60).toString().padStart(2, &#34;0&#34;);
+    return `${m}:${sec}`;
+  }
+})();
+&lt;/script&gt;
+
+&lt;p&gt;当音乐响起，梦想启航。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
